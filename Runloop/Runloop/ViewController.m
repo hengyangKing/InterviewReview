@@ -16,10 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [self runloop];
+    [self runloop];
     [self timer];
-    
-    
 }
 /**
  当前runloop
@@ -34,6 +32,9 @@
     }
     NSThread *subThread = [[NSThread alloc]initWithTarget:self selector:@selector(subLoop) object:nil];
     [subThread start];
+    
+    
+    
 }
 -(void)timer{
 //    其中 scheduledTimerWithTimeInterval方法将其默认添加进当前currentRunloop
@@ -68,7 +69,6 @@
     NSRunLoop *currentRunLoop = [NSRunLoop currentRunLoop];
     NSLog(@"%p",currentRunLoop);
 }
-
 
 
 @end
