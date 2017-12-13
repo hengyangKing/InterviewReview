@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09586F711FDE49AA004C9D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09586F701FDE49AA004C9D84 /* AppDelegate.m */; };
+		09586F741FDE49AA004C9D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09586F731FDE49AA004C9D84 /* ViewController.m */; };
+		09586F771FDE49AA004C9D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09586F751FDE49AA004C9D84 /* Main.storyboard */; };
+		09586F791FDE49AA004C9D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09586F781FDE49AA004C9D84 /* Assets.xcassets */; };
+		09586F7C1FDE49AA004C9D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09586F7A1FDE49AA004C9D84 /* LaunchScreen.storyboard */; };
+		09586F7F1FDE49AA004C9D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09586F7E1FDE49AA004C9D84 /* main.m */; };
+		09586FC41FDE6D83004C9D84 /* AccelerationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09586FBA1FDE6D83004C9D84 /* AccelerationManager.m */; };
+		09586FC51FDE6D83004C9D84 /* KingMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09586FBB1FDE6D83004C9D84 /* KingMotionManager.m */; };
+		09586FC61FDE6D83004C9D84 /* MagnetometerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09586FBD1FDE6D83004C9D84 /* MagnetometerManager.m */; };
+		09586FC71FDE6D83004C9D84 /* PedometerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09586FC21FDE6D83004C9D84 /* PedometerManager.m */; };
+		09586FC81FDE6D83004C9D84 /* GyroManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09586FC31FDE6D83004C9D84 /* GyroManager.m */; };
+		09586FCB1FDE729A004C9D84 /* StepCounterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09586FCA1FDE729A004C9D84 /* StepCounterManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09586F6C1FDE49AA004C9D84 /* CoreMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09586F6F1FDE49AA004C9D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09586F701FDE49AA004C9D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09586F721FDE49AA004C9D84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09586F731FDE49AA004C9D84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09586F761FDE49AA004C9D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09586F781FDE49AA004C9D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09586F7B1FDE49AA004C9D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09586F7D1FDE49AA004C9D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09586F7E1FDE49AA004C9D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09586FBA1FDE6D83004C9D84 /* AccelerationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerationManager.m; sourceTree = "<group>"; };
+		09586FBB1FDE6D83004C9D84 /* KingMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KingMotionManager.m; sourceTree = "<group>"; };
+		09586FBC1FDE6D83004C9D84 /* PedometerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PedometerManager.h; sourceTree = "<group>"; };
+		09586FBD1FDE6D83004C9D84 /* MagnetometerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnetometerManager.m; sourceTree = "<group>"; };
+		09586FBE1FDE6D83004C9D84 /* GyroManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroManager.h; sourceTree = "<group>"; };
+		09586FBF1FDE6D83004C9D84 /* KingMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KingMotionManager.h; sourceTree = "<group>"; };
+		09586FC01FDE6D83004C9D84 /* AccelerationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerationManager.h; sourceTree = "<group>"; };
+		09586FC11FDE6D83004C9D84 /* MagnetometerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnetometerManager.h; sourceTree = "<group>"; };
+		09586FC21FDE6D83004C9D84 /* PedometerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PedometerManager.m; sourceTree = "<group>"; };
+		09586FC31FDE6D83004C9D84 /* GyroManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroManager.m; sourceTree = "<group>"; };
+		09586FC91FDE729A004C9D84 /* StepCounterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepCounterManager.h; sourceTree = "<group>"; };
+		09586FCA1FDE729A004C9D84 /* StepCounterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepCounterManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09586F691FDE49AA004C9D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09586F631FDE49AA004C9D84 = {
+			isa = PBXGroup;
+			children = (
+				09586F6E1FDE49AA004C9D84 /* CoreMotion */,
+				09586F6D1FDE49AA004C9D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09586F6D1FDE49AA004C9D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09586F6C1FDE49AA004C9D84 /* CoreMotion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09586F6E1FDE49AA004C9D84 /* CoreMotion */ = {
+			isa = PBXGroup;
+			children = (
+				09586FB91FDE6D83004C9D84 /* KingMotionManager */,
+				09586F6F1FDE49AA004C9D84 /* AppDelegate.h */,
+				09586F701FDE49AA004C9D84 /* AppDelegate.m */,
+				09586F721FDE49AA004C9D84 /* ViewController.h */,
+				09586F731FDE49AA004C9D84 /* ViewController.m */,
+				09586F751FDE49AA004C9D84 /* Main.storyboard */,
+				09586F781FDE49AA004C9D84 /* Assets.xcassets */,
+				09586F7A1FDE49AA004C9D84 /* LaunchScreen.storyboard */,
+				09586F7D1FDE49AA004C9D84 /* Info.plist */,
+				09586F7E1FDE49AA004C9D84 /* main.m */,
+			);
+			path = CoreMotion;
+			sourceTree = "<group>";
+		};
+		09586FB91FDE6D83004C9D84 /* KingMotionManager */ = {
+			isa = PBXGroup;
+			children = (
+				09586FBF1FDE6D83004C9D84 /* KingMotionManager.h */,
+				09586FBB1FDE6D83004C9D84 /* KingMotionManager.m */,
+				09586FC01FDE6D83004C9D84 /* AccelerationManager.h */,
+				09586FBA1FDE6D83004C9D84 /* AccelerationManager.m */,
+				09586FC11FDE6D83004C9D84 /* MagnetometerManager.h */,
+				09586FBD1FDE6D83004C9D84 /* MagnetometerManager.m */,
+				09586FBE1FDE6D83004C9D84 /* GyroManager.h */,
+				09586FC31FDE6D83004C9D84 /* GyroManager.m */,
+				09586FBC1FDE6D83004C9D84 /* PedometerManager.h */,
+				09586FC21FDE6D83004C9D84 /* PedometerManager.m */,
+				09586FC91FDE729A004C9D84 /* StepCounterManager.h */,
+				09586FCA1FDE729A004C9D84 /* StepCounterManager.m */,
+			);
+			path = KingMotionManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09586F6B1FDE49AA004C9D84 /* CoreMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09586F821FDE49AA004C9D84 /* Build configuration list for PBXNativeTarget "CoreMotion" */;
+			buildPhases = (
+				09586F681FDE49AA004C9D84 /* Sources */,
+				09586F691FDE49AA004C9D84 /* Frameworks */,
+				09586F6A1FDE49AA004C9D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMotion;
+			productName = "0.3加速计CoreMotion";
+			productReference = 09586F6C1FDE49AA004C9D84 /* CoreMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09586F641FDE49AA004C9D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = J;
+				TargetAttributes = {
+					09586F6B1FDE49AA004C9D84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09586F671FDE49AA004C9D84 /* Build configuration list for PBXProject "CoreMotion" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09586F631FDE49AA004C9D84;
+			productRefGroup = 09586F6D1FDE49AA004C9D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09586F6B1FDE49AA004C9D84 /* CoreMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09586F6A1FDE49AA004C9D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09586F7C1FDE49AA004C9D84 /* LaunchScreen.storyboard in Resources */,
+				09586F791FDE49AA004C9D84 /* Assets.xcassets in Resources */,
+				09586F771FDE49AA004C9D84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09586F681FDE49AA004C9D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09586FC71FDE6D83004C9D84 /* PedometerManager.m in Sources */,
+				09586F741FDE49AA004C9D84 /* ViewController.m in Sources */,
+				09586FC41FDE6D83004C9D84 /* AccelerationManager.m in Sources */,
+				09586F7F1FDE49AA004C9D84 /* main.m in Sources */,
+				09586FC81FDE6D83004C9D84 /* GyroManager.m in Sources */,
+				09586FC51FDE6D83004C9D84 /* KingMotionManager.m in Sources */,
+				09586FCB1FDE729A004C9D84 /* StepCounterManager.m in Sources */,
+				09586F711FDE49AA004C9D84 /* AppDelegate.m in Sources */,
+				09586FC61FDE6D83004C9D84 /* MagnetometerManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09586F751FDE49AA004C9D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09586F761FDE49AA004C9D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09586F7A1FDE49AA004C9D84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09586F7B1FDE49AA004C9D84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09586F801FDE49AA004C9D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09586F811FDE49AA004C9D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09586F831FDE49AA004C9D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoreMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.king.--3---CoreMotion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09586F841FDE49AA004C9D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoreMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.king.--3---CoreMotion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09586F671FDE49AA004C9D84 /* Build configuration list for PBXProject "CoreMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09586F801FDE49AA004C9D84 /* Debug */,
+				09586F811FDE49AA004C9D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09586F821FDE49AA004C9D84 /* Build configuration list for PBXNativeTarget "CoreMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09586F831FDE49AA004C9D84 /* Debug */,
+				09586F841FDE49AA004C9D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09586F641FDE49AA004C9D84 /* Project object */;
+}

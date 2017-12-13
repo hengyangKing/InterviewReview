@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eBc-qo-Yph">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZb-MY-9ns">
+                                <rect key="frame" x="0.0" y="350.5" width="375" height="244.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wZb-MY-9ns" secondAttribute="height" multiplier="23:15" id="Mqg-EY-hVA"/>
+                                </constraints>
+                                <state key="normal" title="外设管理设计模式"/>
+                                <connections>
+                                    <segue destination="GfK-vb-yP0" kind="push" id="RU7-d2-VjW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwI-F0-Mzg">
+                                <rect key="frame" x="0.0" y="83" width="375" height="245"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uwI-F0-Mzg" secondAttribute="height" multiplier="23:15" id="skC-4l-qjc"/>
+                                </constraints>
+                                <state key="normal" title="中心管理外设模式"/>
+                                <connections>
+                                    <segue destination="d3N-j9-VhH" kind="push" id="v1c-PR-LJc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wZb-MY-9ns" firstAttribute="width" secondItem="wZb-MY-9ns" secondAttribute="height" multiplier="23:15" id="4nA-Cm-Mk7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wZb-MY-9ns" secondAttribute="bottom" constant="72" id="FTl-vL-nfU"/>
+                            <constraint firstItem="uwI-F0-Mzg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="IfP-rb-NXo"/>
+                            <constraint firstItem="wZb-MY-9ns" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Rrr-cB-H7g"/>
+                            <constraint firstItem="wZb-MY-9ns" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="qbw-mW-gfo"/>
+                            <constraint firstItem="uwI-F0-Mzg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="sLe-a5-6IT"/>
+                            <constraint firstItem="uwI-F0-Mzg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wMz-Uy-Jx5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="v2g-0U-puw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1478" y="12"/>
+        </scene>
+        <!--Center BLE-->
+        <scene sceneID="Uue-IC-I4H">
+            <objects>
+                <viewController id="d3N-j9-VhH" customClass="CenterBLEViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ulN-aG-eLc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kBC-K1-nWP"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Center BLE" id="zvh-DJ-4R9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vZ7-ty-wHH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3076" y="11"/>
+        </scene>
+        <!--Peripheral BLE-->
+        <scene sceneID="qSU-ig-iN6">
+            <objects>
+                <viewController id="GfK-vb-yP0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jlg-Eb-38t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Jv0-MN-qTb"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Peripheral BLE" id="dIV-Bb-0cD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1Q-S4-PJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3076" y="763"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cfp-aa-rwL">
+            <objects>
+                <navigationController id="eBc-qo-Yph" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Sav-M6-xJN">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FI7-Jl-eWJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S4a-2B-MfZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786" y="13"/>
+        </scene>
+    </scenes>
+</document>
