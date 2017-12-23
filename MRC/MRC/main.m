@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Person.h"
 #import "Room.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Person *p = [[Person alloc]init];
