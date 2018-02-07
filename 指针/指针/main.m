@@ -15,6 +15,7 @@ void point1(void){
     int *p1 = array;//指向数组首元素的指针，指向4字节的空间
     int (*p2)[4] = &array;//指向数组的指针，指向16字节的空间    0x7ffeefbff620-0x7ffeefbff614
     NSLog(@"%p %p",p1,p2);
+
     NSLog(@"%lu %lu",sizeof(p1),sizeof(p2));
     NSLog(@"%p %p",p1+1,p2+1);
     NSLog(@"%p %p",array+1,&array+1);
@@ -45,9 +46,7 @@ void point3(void) {
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        point3();
-
-
+        point1();
     }
     return 0;
 }

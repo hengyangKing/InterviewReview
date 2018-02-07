@@ -17,5 +17,4 @@
 @property int age;
 @property (getter=fooFunc) NSString *name;
 
-
 @end
